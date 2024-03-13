@@ -1,0 +1,5 @@
+fetch vs axios vs etc
+
+button vs input type button
+
+form vs div when sending data to server

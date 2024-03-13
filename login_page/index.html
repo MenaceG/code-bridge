@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="scripts.js"> </script>
+</head>
+<body>
+    <form id="form" action="POST">
+        <div class="container">
+            <h1>Register</h1>
+            
+            <hr id="hr">
+            
+            <div class="input">
+                <input type="text" placeholder="Name" 
+                name="name" id="name" required>
+                
+                <hr>
+            </div>
+
+            
+            <div class="input">
+                <input type="text" placeholder="Email" name="email" id="email" required>
+                <label for="email"></label>
+                
+                <hr>
+            </div>
+
+
+            <div class="input">
+                <label for="pass"></label>
+                <input type="password" placeholder="Password" name="pass" id="pass" required>
+                
+                <hr>
+            </div>
+                
+            
+            <div class="input">
+                <label for="pass-rep"></label>
+                <input type="password"              placeholder="Confirm Password" name="pass-rep" id="pass-rep" required>
+        
+                <hr>
+            </div>
+
+
+            <button>Register</button>
+            <input type="submit" id="submit" value="Register">
+
+            <p>
+                Already have an account? 
+                <a href="#">Login Here</a>
+            </p>
+        </div>
+    </form>
+</body>
+</html>

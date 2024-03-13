@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image:linear-gradient(to bottom right ,#3b66cd, #95467e);
+    height: 100vh;
+}
+
+.container{
+    width: 30vw;
+    height: 65vh;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 15vh;
+    margin-left: 35vw;
+}
+
+.container h1{
+    padding-top: 15px;
+    margin: 15px;
+}
+
+
+input[type=text], input[type=password] {
+    width: 79%;
+    padding: 20px;
+    margin: 5px 0 22px 0px;
+    border: none;
+  }
+
+#hr{
+    width: 100%;
+}
+hr{
+    margin: auto;
+    width: 80%;
+}
