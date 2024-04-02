@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: "teslafont";
+    src: url("assets/fonts/TESLA.ttf") format("woff2"),
+        url("assets/fonts/TESLA.ttf") format("woff");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+/*                              NAVBAR         */
+
+
+
+
+
+
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.navbar h1 {
+    font-family: teslafont;
+    color: #ffffff;
+    font-size: 19px;
+    margin: 20px 0px 5px 50px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+.menu p {
+    padding: 0em 1em 0em 2em;
+    font-size: 15px;
+}
+
+.btns {
+    -webkit-filter: invert(100%);
+    margin: 1em;
+    margin-right: 3.1em;
+}
+
+.btns span {
+    padding-left: 0.5em;
+}
+
+
+
+
+
+
+/*                                 BODY                         */
+
+
+
+
+
+
+
+.videoBg {
+    z-index: -1;
+    position: relative;
+}
+
+
+
+.desc {
+    position: absolute;
+    padding: 0em 0em 0em 5em;
+    top: 32em;
+    color: #ffffff;
+    width: 30%;
+}
+
+.desc h2 {
+    font-size: 2.3em;
+    padding-bottom: 0.5em;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+/* @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+} */
+
+
+
+
+
+
+
+/*                              Model Y                      */
+
+.modY {
+    background-image: url(/assets/background/Homepage-Model-Y-Global-Desktop.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9em;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 33em;
+}
+
+.content2 button {
+    background-color: #f5f5f4;
+    border: 0;
+    margin: 0.9em;
+    margin-bottom: 2em;
+    padding: 12px 6.8em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content2 #grey {
+    color: white;
+    background-color: #5e5d5a;
+}
+
+.content2 p {
+    pad text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+/*                              Model 3                           */
+
+
+
+
+
+.mod3 {
+    background-image: url(/assets/background/xufyfcvqhmq36szytod7.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*                              Model X                            */
+
+
+
+
+.modX {
+    background-image: url(/assets/background/Homepage-Model-X-Desktop-LHD.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.modX .content2 p {
+    color: white;
+}
+
+
+
+
+/*                              Model S                            */
+
+
+
+
+.modS {
+    background-image: url(/assets/background/Homepage-Model-S-Desktop-LHD-6.22.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*                              CyberTruck                            */
+
+
+
+
+.cyber {
+    background-image: url(/assets/background/Homepage-Cybertruck-Desktop.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.cyber .content2 {
+    padding-top: 48em;
+}
+
+
+
+
+/*                              Solar Panel                         */
+
+
+
+
+.solarPanel {
+    background-image: url(/assets/background/Homepage-SolarPanels-01-Desktop.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.solarPanel .content1 {
+    color: white;
+}
+
+
+
+
+
+/*                              Solar Roof                            */
+
+
+
+
+.solarRoof {
+    background-image: url(/assets/background/Homepage-SolarRoof-Desktop-Global.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+/*                              Powerwall                            */
+
+
+
+
+.power {
+    background-image: url(/assets/background/Homepage-Powerwall-01-Desktop.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+/*                              Accessories                         */
+
+
+
+
+.accessories {
+    background-image: url(/assets/background/Homepage-Accessories-Desktop-NA-APAC.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    top: 4.12em;
+    padding: 1.5em;
+    background: linear-gradient(#0f0c2900, #0000009d);
+
+}
+
+.footer a {
+    padding-left: 2em;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+
+}

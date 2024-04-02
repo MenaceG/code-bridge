@@ -23,7 +23,7 @@ async function fetchData() {
 
         
         img.src = data.avatar_url;
-        names.innerText = "Username: " + data.name;
+        names.innerText = data.name;
         url.innerText = "Link: " + data.html_url;
         repo.innerText = "Number Of Repositories: " + data.public_repos;
         followers.innerText = "Followers: " + data.followers;

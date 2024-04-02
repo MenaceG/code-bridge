@@ -1,4 +1,35 @@
+*{
+    margin: 0;
+}
+
 #img{
     display: block;
     height: 200px;
 }
+
+
+body{
+    background-image: url(git.png);
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin: 10em;
+    margin-bottom: 2em;
+}
+
+.output{
+    background-color: antiquewhite;
+    margin: 1em 40em 0em 40em;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+
+    opacity: 0.5\8;    
+}
+

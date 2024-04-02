@@ -8,23 +8,22 @@
 
 </head>
 <body>
-    <div class="container">
+    <!-- <img src="git.png"> -->
+    <div class="main">
+        <div class="input">
+            <input type="text" id="username" placeholder="Search Github User">
+            <button onclick="fetchData()"> Search</button>
+        </div>
 
-        <h1>Github Profile Finder</h1>
-
-        <input type="text" id="username" placeholder="Enter Github Username">
-            
-        <button onclick="fetchData()"> Search</button>
-
-        <img src="" id="img">
-        
-        <p id="name" ></p>
-        <a href="" id="url" ></a>  
-        <p id="repo" ></p>
-        <p id="followers"> </p>
-
-
+        <div class="output">   
+            <img src="/72409436.jpg" id="img">        
+            <p id="name" >MenaceG</p>
+            <a href="" id="url" >https://github.com/MenaceG</a> 
+            <p id="repo" >12</p>
+            <p id="followers">2</p>
+        </div>
     </div>
+
 </body>
 <script src="script.js"> </script>
 </html>
